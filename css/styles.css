@@ -689,6 +689,7 @@
           text-align: center;
           letter-spacing: 0.03em;
           padding-top: 40px;
+          padding-bottom: 12px;
         }
 
         .backdrop-inputs {
@@ -782,7 +783,7 @@
 
         .backdrop-agreements {
           margin-top: 20px;
-          margin-left: 10px;
+          width: 448px;
           position: relative;
           display: flex;
           justify-content: space-between;
