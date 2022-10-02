@@ -12,6 +12,7 @@ $colors: (
   "medium-background": #f5f4fa,
   "border-primary": #eeeeee,
   "header-underline": #ECECEC,
+  "svg":#AFB1B8,
 );
 @function getColor($key) {
   @return map-get($colors, $key);
