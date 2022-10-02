@@ -19,7 +19,7 @@
     flex-direction: column;
 
     &__motto{
-        color:var(--white-color);
+        color:getColor("light-background");
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
@@ -32,9 +32,9 @@
 
     &__button{
         font-family: "Roboto";
-        color:var(--white-color);
-        background-color: var(--blue-color);
-        border-color: var(--blue-color);
+        color:getColor("light-background");
+        background-color: getColor("active");
+        border-color: getColor("active");
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
         font-weight: 700;
