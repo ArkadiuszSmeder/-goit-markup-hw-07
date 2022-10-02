@@ -116,11 +116,11 @@
           background-color: transparent;
         }
 
-        .nav__link:hover, .nav__link:focus, .nav__list--underline {
+        .nav__list--underline {
         color: var(--blue-color);
         }
       
-        .nav__link:hover:after, .nav__link:focus:after, .nav__list--underline:after {
+        .nav__list--underline:after {
         background-color: var(--blue-color);
         }
         /*++++++++++ END NAWIGACJA ++++++++++*/
@@ -151,7 +151,7 @@
         .contact__list:hover,
         .contact__list:focus{
           color:var(--blue-color);
-          fill:var(blue);
+          fill:var(--blue-color);
         }
 
         .contact__envelope {
