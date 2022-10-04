@@ -37,13 +37,12 @@
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
         text-decoration: none;
-    }
 
-    &__footer--place{
-        color: getColor("light-background");
-    }
+        &--place{
+          color: getColor("light-background");
+      }
 
-    &__footer--mail{
+      &--mail{
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         transition-property: color;
@@ -52,8 +51,9 @@
         &:focus{
             color:getColor("active");
         }
-    }
-    &__footer--phone{
+      }
+
+      &--phone{
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         transition-property: color;
@@ -62,9 +62,9 @@
         &:focus{
             color:getColor("active");
         }
-
      }
     }
+  }
 
   .join {
     font-family: "Roboto";

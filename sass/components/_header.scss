@@ -17,21 +17,21 @@
     line-height: 1.19;
     text-decoration: none;
     letter-spacing: 0.03em;
-  }
 
-  .logo--blue {
-    @extend .logo;
-    color: getColor("active");
-  }
+    &--blue {
+      @extend .logo;
+      color: getColor("active");
+    }
 
-  .logo--black {
-    @extend .logo;
-    color: getColor("logo-dark");
-  }
+    &--black {
+      @extend .logo;
+      color: getColor("logo-dark");
+    }
 
-  .logo--white {
-    @extend .logo;
-    color: getColor("light-background");
+    &--white {
+      @extend .logo;
+      color: getColor("light-background");
+    }
   }
 
   .nav{
